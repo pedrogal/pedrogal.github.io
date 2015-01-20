@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="miPaginaStyle.css">
+  <script src="myScript.js"></script>
+</head>
+<body>
+
+  <h1 id="myHeader">Welcome to test</h1>
+
+  <nav id="linkNavigator">
+
+    <div id="linkList">
+
+      <ul class="linkNavigate">
+
+        <li class="section">
+          <h2>Links<h2>
+        </li>
+        <li class onclick=iframeDisplayChange("http://www.techgig.com/tech-news/editors-pick/18-of-googles-biggest-failures-28492")>
+          Google Failures
+        </li>
+        <li class onclick=iframeDisplayChange("http://www.techgig.com/tech-news/editors-pick/10-best-tutorials-to-learn-angularjs-28515")>
+          Angularjs Tutorials
+        </li>
+        <li class onclick=iframeDisplayChange("http://www.techgig.com/tech-news/editors-pick/why-2015-will-not-be-a-game-changing-year-in-cloud-28528")>
+          Cloud Gaming 2015
+        </li>
+        <li class onclick=iframeDisplayChange("http://www.techgig.com/tech-news/editors-pick/10-Best-Java-Tools-That-Every-Java-Programmers-Should-Know-28454")>
+          10 Best Java Tools
+        </li>
+        <li class onclick=iframeDisplayChange("http://www.techgig.com/tech-news/editors-pick/Apples-Swift-Programming-Language-Soars-In-Popularity-28493")>
+          Apple Programming
+        </li>
+        <li class onclick=iframeDisplayChange("http://www.techgig.com/tech-news/editors-pick/Lambda-Architecture-For-Big-Data-28503")>
+          Arquitecture for BigData
+        </li>
+        <li class onclick=iframeDisplayChange("http://www.techgig.com/tech-news/editors-pick/Top-7-Useful-Debugging-Tools-For-PHP-Developer-28479")>
+          Debugging tools for PHP
+        </li>
+
+      </ul>
+
+    </div>
+    
+  </nav>
+
+  <section>
+    <div id="pageViewer" >
+      <iframe id="HTMLDisplayer" src="" onload="setIframeHeight(this.id)" width="1020" height="560">
+        <p>Your browser does not support iframes.</p>
+      </iframe>
+    </div>
+
+  </section>
+
+  <footer id="footpage">
+
+    <div class="divFooter">
+      <p>Autor: Pedro Galusso</p>
+      <p>Date: 01/15/2015</p>
+    </div>
+
+    <div class="divFooter">
+      <p>Company: TCS Uruguay</p>
+      <p>Country: Uruguay </p>
+    </div>
+
+  </footer>
+
+
+
+</body>
+</html>
